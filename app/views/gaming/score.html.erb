@@ -1,2 +1,5 @@
-<h1><%= @result[:message] %></h1>
-<h1>Score: <%= @result[:score] %></h1>
+<div class="container">
+  <h1><%= @result[:message] %></h1>
+  <h1>Score: <%= @result[:score] %></h1>
+  <%= link_to "play again", "/gaming/game" %>
+</div>

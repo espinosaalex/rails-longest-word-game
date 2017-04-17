@@ -5,7 +5,6 @@ require 'uri'
 class GamingController < ApplicationController
   def game
     @grid = generate_grid(20)
-
   end
 
   def score
